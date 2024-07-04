@@ -8,7 +8,7 @@ const Slider = () => {
                     <div className='flex justify-center items-center gap-20 mx-auto'>
                      <div className="flex flex-col relative justify-center items-center">
                             <img
-                                src="https://i.ibb.co/12dD8dJ/team1.png"
+                                src="https://megaone.acrothemes.com/design-agency/img/team1.png"
                                 alt="Team 1"
                                 className="" />
                             <a href="/" className="mt-8"> <img src="https://megaone.acrothemes.com/design-agency/img/team-bg1.png" alt="" /></a>

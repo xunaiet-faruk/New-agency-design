@@ -5,22 +5,26 @@ const Banner = () => {
     return (
         <div>
             <div className="flex">
-                <div className="bg-[#0596a1] lg:h-[780px] w-[50%]">
+                <div className="bg-[#0596a1] lg:h-[780px] w-[50%] ">
                    <div className="flex justify-center items-center animate-pulse ">
                         <img src="https://megaone.acrothemes.com/design-agency/img/slider-object1.png" alt="" />
                    </div>
-                   <div className="mt-28">
-                        <h4 className="text-white text-[60px] text-center" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: '550' }}>Design.
-                           <br/> <p className="-mt-6">Revolution</p>
+                    <div className="relative mt-28 flex flex-col items-center">
+                        <h4 className="text-white text-[60px] text-center" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: '550' }}>
+                            Design.
+                            <br />
+                            <p className="-mt-6">Revolution</p>
                         </h4>
-                        <div className="flex absolute  top-[200px] left-36 justify-center items-center h-[270px] w-[270px] border-4 opacity-35  border-[#a0eaef]">
+                        {/* Square */}
+                        <div className="relative">
+                            <div className="absolute -top-[240px] -left-[280px] mt-8 flex justify-center items-center h-[270px] w-[270px] border-4 opacity-35 border-[#a0eaef]">
+                            </div>
                         </div>
                         <div className="flex items-center gap-3 justify-center mt-24">
                             <a href="/"><FiPlayCircle className="text-3xl text-white opacity-85 hover:text-black" /></a>
-                            <a href="/" className="text-white text-[16px] opacity-85"> Play Video</a>
-
+                            <a href="/" className="text-white text-[16px] opacity-85">Play Video</a>
                         </div>
-                   </div>
+                    </div>
 
                   <div className="flex justify-between items-center py-[100px] px-5">
                         <a href="/"><img className="w-[60px] mt-12" src="https://i.ibb.co/BVGF7hx/image.png" alt="" /></a>
