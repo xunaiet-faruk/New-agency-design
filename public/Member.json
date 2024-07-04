@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Mountain View",
+        "image": "https://i.ibb.co/Lx9w7T2/image.png"
+    },
+    {
+        "id": 2,
+        "name": "City Skyline",
+        "image": "https://i.ibb.co/Lx9w7T2/image.png"
+    },
+    {
+        "id": 3,
+        "name": "Forest Trail",
+        "image": "https://i.ibb.co/Lx9w7T2/image.png"
+    },
+    {
+        "id": 4,
+        "name": "Beach Sunset",
+        "image": "https://i.ibb.co/Lx9w7T2/image.png"
+    },
+    {
+        "id": 5,
+        "name": "Desert Dunes",
+        "image": "https://i.ibb.co/Lx9w7T2/image.png"
+    }
+]
